@@ -19,4 +19,10 @@ import flatMap from 'flatten-array'
 flatMap([[1, 2, [3]], 4]) // [1, 2, 3, 4]
 ```
 
-## [API]((docs/api.md))
+## [API](docs/api.md)
+
+## Notes
+
+* A polyfill for
+[Array.isArray] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+might be needed to support older browsers.
