@@ -21,6 +21,12 @@ flatMap([[1, 2, [3]], 4]) // [1, 2, 3, 4]
 
 ## [API](docs/api.md)
 
+## Dev Tasks
+
+* `npm run compile` - compile ES2015 source
+* `npm test` - compile then run format check and unit tests
+* `npm run docs` - generates API documentation
+
 ## Notes
 
 * A polyfill for
