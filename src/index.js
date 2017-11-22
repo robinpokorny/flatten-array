@@ -1,7 +1,7 @@
 import flatMap from './flat-map'
 
 /**
- * Anything expect an Array.
+ * Anything except an Array.
  * @typedef {*} NonArray
  */
 
